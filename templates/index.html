@@ -1,0 +1,7 @@
+<!doctype html>
+<title>Docker secrets demo</title>
+{% if password %}
+  <p>Your secret password: <strong>{{ password }}</strong></p>
+{% else %}
+  <strong>No password specified!</strong>
+{% endif %}
